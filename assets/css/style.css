@@ -50,7 +50,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.header {
+    flex: auto;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -134,7 +135,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.card {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,7 +144,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+.card {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,7 +153,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+.card {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
