@@ -9,7 +9,6 @@ body {
 }
 
 .header {
-    display: flex;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -17,7 +16,7 @@ body {
 }   
 
 .header h1 {
-    display: flex;
+    display: inline-block;
     justify-content: end;
     font-size: 48px;
 }
@@ -205,6 +204,6 @@ p {
     font-size: 20px;
 }
 
-@media screen and (max=width 992px);
+@media screen and (max=width 990px);
 @media screen and (max=width 768px);
 @media screen and (max=width 576px);
